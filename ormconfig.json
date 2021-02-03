@@ -1,10 +1,10 @@
 {
-    "type": "mysql",
+    "type": "mariadb",
     "host": "localhost",
     "port": 3306,
     "username": "root",
     "password": "",
-    "database": "auclairm_espaceclient",
+    "database": "test",
     "synchronize": true,
     "entities": [
         "entities/**/*.ts"
